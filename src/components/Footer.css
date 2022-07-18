@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    background-color: rgb(28,0,28);
+    margin-top: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.footer ul li{
+    list-style: none;
+    color: white;
+    padding: 10px;
+    font-family: "Barlow", sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.footer h1{
+    text-transform: capitalize;
+    font-family: "Teko", sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+@media screen and (max-width: 350px) {
+    .footer{
+        display: block;
+    }
+    .footer ul {
+        display: inline-block;
+    }
+    .footer h1{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}

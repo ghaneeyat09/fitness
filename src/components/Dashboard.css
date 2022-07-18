@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 1;
+
+}
+.div1 ul{
+    display: block;
+    text-align: left;
+    padding: 30px 50px;
+}
+.div1 ul li{
+    color: grey;
+    text-transform: capitalize;
+    font-size: 23px;
+    margin: 15px 0;
+    padding: 5px 0;
+    list-style: none;
+    font-family: "Teko", sans-serif;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.div2{
+    background-color: grey;
+    width: 200px;
+    position: fixed;
+    left: 300px;
+    top: 70px;
+    bottom: 0;
+}
+.div2 ul{
+    display: block;
+    text-align: left;
+    padding: 0 15px;
+}
+.div2 ul li{
+    color: black;
+    text-transform: capitalize;
+    font-size: 23px;
+    margin: 15px 0;
+    padding: 5px 0;
+    list-style: none;
+    font-family: "Teko", sans-serif;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.dashboardNav{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 3px 10px 0 grey;
+    position: fixed;
+    padding-left: 310px;
+}
+.dashboardNav h1{
+    color: black;
+    margin-left: 0;
+}
+.dashboardNav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboardNav ul li:first-child{
+    background-color: red;
+    color: white;
+}
+.dashboardNav ul li:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.div1 ul li:hover{
+    background-color: grey;
+    color: black;
+}
+.div2 ul li:hover{
+    background-color: black;
+    color: grey;
+}
+.svgCont{
+    width: 30%;
+    position: absolute;
+    top: 200px;
+    right: 20%;
+    z-index: -1;
+}
+.svg{
+    width: 100%;
+}
+.cal{
+    margin-right: 10px;
+}
