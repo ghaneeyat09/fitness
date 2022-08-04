@@ -10,7 +10,7 @@ const Login = () => {
                   <input type="email" placeholder="Email or Username"/><br/>
                   <input type="password" placeholder="Password"/><br/>
                   <button type="submit">Login</button>
-                  <p style={{color: "white", textAlign: "center", fontFamily: '"Barlow", sans-serif', marginTop: "10px", fontSize: "14px"}}>Don't have an account yet? <Link to="/signup" style={{color: "red", fontWeight: "600", fontSize: "18px"}}>Signup</Link></p>
+                  <p style={{color: "white", textAlign: "center", fontFamily: '"Barlow", sans-serif', marginTop: "15px", fontSize: "14px"}}>Don't have an account yet? <Link to="/signup" style={{color: "rgb(247, 161, 247)", fontWeight: "500", fontSize: "18px"}}>Signup</Link></p>
               </form>
           </div>
         </div>

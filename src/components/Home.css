@@ -98,17 +98,11 @@ nav ul li{
     height: 170vh;
 }
 .quote{
-    width: 45%;
+    width: 50%;
     position: relative;
-    top: 30%;
+    top: 25%;
     text-align: center;
     margin: auto;
-}
-.fit, .lifestyle{
-    color: white;
-}
-.health{
-    color: rgb(28, 0, 28);
 }
 /* .quote{
     position: absolute;
@@ -121,21 +115,22 @@ nav ul li{
     /* margin-bottom: 20px; 
 } */
 .quote p{
-    font-size: 40px;
-    font-weight: 600;
-    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
     word-spacing: 2px;
     text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
 }
 .quote p:nth-child(2){
-    font-family:'Courier New', Courier, monospace;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
     font-family: 'Quicksand', sans-serif;
-    color:rgb(28, 0, 28);
+    color: rgb(247, 161, 247);
     font-size: 20px;
     text-transform: capitalize;
+    margin-top: 20px;
+}
+.dot{
+    color: rgb(0, 0, 0);
 }
 .quote pre{
     font-size: 20px;
@@ -161,28 +156,39 @@ nav ul li{
      nav ul{
          display: none;
      }
-     /* .quote{
-         top: 30%;
-     } */
     .quote button{
         margin-right: auto;
     }
+    .quote{
+        width: 60%;
+    }
 }
 @media screen and (max-width: 1000px){
-    .quote{
-        width: 50%;
-        /* top: 40%; */
-    }
     .bground{
         height: 130vh;
+    }
+    .quote{
+        top: 30%;
+        width: 70%;
     }
     .container{
         height: 130vh;
     }
 }
 @media screen and (max-width: 900px){
+    .quote p{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 860px){
     .quote{
-        width: 450px;
+        width: 70%;
+        top: 32%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .quote p{
+        font-size: 43px;
     }
 }
 @media screen and (max-width: 600px){
@@ -196,16 +202,21 @@ nav ul li{
        margin-left: 20px;
    }
 }
+@media screen and (max-width: 510px) {
+    .quote p{
+        font-size: 38px;
+    }
+}
 @media screen and (max-width: 400px){
-    /* .quote{
-        top: 30%;
-    } */
     .quote p{
         font-size: 32px;
+    }
+    .quote{
+        width: 95%;
     }
 }
 @media screen and (max-width: 290px){
     .quote p{
-        font-size: 28px;
+        font-size: 25px;
     }
 }

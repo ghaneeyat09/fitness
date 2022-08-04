@@ -27,7 +27,7 @@ const Home = ({changeStat}) => {
             </div>
             <div className="quote">
                 <p>start your journey of fitness with us today!!!</p>
-                <p><span className="fit">fitness</span> and <span className="health">Healthy </span><span className="lifestyle">Lifestyle.</span></p>
+                <p>fitness <span className="dot">&bull;</span> Gym <span className="dot">&bull;</span> lifestyle</p>
                {/* <p><span>"</span>going to the gym is great for your body, but it's also good for your mind<span>"</span></p>
                <pre>_________Rory Mcllroy</pre>
     <button>become a member</button> */}

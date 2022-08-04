@@ -1,18 +1,20 @@
 .signupForm{
     height: 100vh; 
-    background-image: url("../../public/assets/fitnessImage/fitnessImg9.jpg");
+    /* background-image: url("../../public/assets/fitnessImage/fitnessImg9.jpg"); */
+    background-color: rgb(247, 161, 247);
     background-size: cover;
     background-repeat: no-repeat;
+    border-left: 70px dashed rgb(28, 0, 28);
 }
 .signupForm .formCont{
     position: fixed;
-    width: 400px;
+    width: 500px;
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: black;
+    background-color: rgb(28, 0, 28);
     padding: 0 50px;
-    border-left: 5px solid red;
+    border-left: 5px solid rgb(247, 161, 247);
     box-shadow: 3px 3px 10px 0 rgb(50, 33, 33);
 }
 .signupForm form{
@@ -30,13 +32,12 @@
     font-size: "Barlow", sans-serif;
 }
 .signupForm form button{
-    width: 150px;
+    width: 100%;
     border: transparent;
     height: 40px;
-    border-radius: 10px;
     margin-top: 30px;
-    background-color: red;
-    color: white;
+    background-color: rgb(247, 161, 247);
+    color: rgb(0, 0, 0);
 }
 .signupForm .formCont .logo{
         text-transform: uppercase;
@@ -58,8 +59,7 @@
         box-shadow: none;
     }
     .signupForm{
-        height: 100vh; 
-        background-image: none;
+        border: none;
     }
     .signupForm .formCont .logo{
         margin-top: 0;
