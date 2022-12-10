@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fitness/static/css/main.7879487a.css",
+    "main.js": "/fitness/static/js/main.b2fedd51.js",
+    "static/js/787.ec6b3678.chunk.js": "/fitness/static/js/787.ec6b3678.chunk.js",
+    "static/media/fitnessImg28.jpg": "/fitness/static/media/fitnessImg28.3511b1880358ecbe6ccb.jpg",
+    "static/media/fitnessimg21.jpg": "/fitness/static/media/fitnessimg21.b1e6aee3bd2b63985f1e.jpg",
+    "index.html": "/fitness/index.html",
+    "main.7879487a.css.map": "/fitness/static/css/main.7879487a.css.map",
+    "main.b2fedd51.js.map": "/fitness/static/js/main.b2fedd51.js.map",
+    "787.ec6b3678.chunk.js.map": "/fitness/static/js/787.ec6b3678.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7879487a.css",
+    "static/js/main.b2fedd51.js"
+  ]
+}
